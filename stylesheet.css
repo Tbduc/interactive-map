@@ -1,7 +1,14 @@
 body {
-    background: #696969;
+    background: rgb(154,154,154);
+    background: linear-gradient(0deg, rgba(154,154,154,1) 46%, rgba(178,180,180,1) 82%, rgba(198,199,199,1) 100%);
     color: #fff;
     font-family: Avenir, Calibri, sans-serif;
+}
+.first-text {
+  margin-top: 60px;
+}
+.first-text p {
+  font-size: 21px;
 }
 #map {
     fill: hsl(120deg 88% 31%);
